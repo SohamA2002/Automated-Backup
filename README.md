@@ -313,12 +313,14 @@ These values are adjustable in `.env`.
 ## 📃 Log File Example (backup.log)
 
 ```
-[2025-07-21 02:00:00] Backup started
-[2025-07-21 02:00:01] Created zip: myproject_20250721_020000.zip
-[2025-07-21 02:00:02] Uploaded to Google Drive folder: EC2Backups
-[2025-07-21 02:00:03] Deleted 1 old daily backup(s)
-[2025-07-21 02:00:04] Notification sent to webhook
-[2025-07-21 02:00:04] Backup completed successfully
+[2025-07-21 10:57:40] Backup started
+[2025-07-21 10:57:40] Created zip: /home/ubuntu/auto-backup-project/backups/MyProject/2025/07/21/myproject_20250721_105740.zip
+[2025-07-21 10:57:42] Uploaded to Google Drive folder: EC2Backups
+[2025-07-21 10:57:42] Deleted 0 old daily backup(s)
+[2025-07-21 10:57:42] Deleted 0 old weekly backup(s)
+[2025-07-21 10:57:42] Deleted 0 old monthly backup(s)
+[2025-07-21 10:57:43] Notification sent to webhook
+[2025-07-21 10:57:43] Backup completed successfully
 ```
 
 ---
@@ -330,8 +332,9 @@ Sample payload sent to `NOTIFY_URL`:
 ```json
 {
   "project": "MyProject",
-  "date": "2025-07-21 02:00:00",
-  "status": "BackupSuccessful"
+  "date": "2025-07-21 10:57:42",
+  "status": "BackupSuccessful",
+  "filename": "myproject_20250721_105742.zip"
 }
 ```
 
@@ -354,14 +357,6 @@ ENABLE_NOTIFY=false
 
 ## 👤 Author
 
-**Srushti Deshmukh**
-DevOps Projects Portfolio
-GitHub: [Srushtideshmukh44](https://github.com/Srushtideshmukh44)
+**Soham Arekar**
 
 ---
-
-## 🗕️ Example Crontab Entry
-
-```cron
-0 2 * * * /home/ubuntu/auto-backup-project/venv/bin/python3 /home/ubuntu/auto-backup-project/backup.py >> /home/ubuntu/auto-backup-project/logs/cron.log 2>&1
-```
