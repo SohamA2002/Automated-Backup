@@ -95,7 +95,7 @@ Create `.env` file inside `~/auto-backup-project/`:
 ```dotenv
 # Project Info
 PROJECT_NAME=MyProject
-GITHUB_REPO_URL=https://github.com/yourname/yourrepo.git
+GITHUB_REPO_URL=https://github.com/SohamA2002/Automated-Backup.git
 PROJECT_DIR=/home/ubuntu/MyProject
 
 # Backup
