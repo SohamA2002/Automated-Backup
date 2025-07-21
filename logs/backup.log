@@ -1,0 +1,25 @@
+[2025-07-21 10:47:07] Backup started
+[2025-07-21 10:47:07] Cloning repository from https://github.com/SohamA2002/Automated-Backup.git
+[2025-07-21 10:47:08] Created zip: /home/ubuntu/auto-backup-project/backups/MyProject/2025/07/21/myproject_20250721_104708.zip
+[2025-07-21 10:47:43] Uploaded to Google Drive folder: EC2Backups
+[2025-07-21 10:47:43] Deleted 0 old daily backup(s)
+[2025-07-21 10:47:43] Deleted 0 old weekly backup(s)
+[2025-07-21 10:47:43] Deleted 0 old monthly backup(s)
+[2025-07-21 10:47:43] Webhook failed with status code 404
+[2025-07-21 10:47:43] Backup completed successfully
+[2025-07-21 10:47:45] Backup started
+[2025-07-21 10:47:45] Created zip: /home/ubuntu/auto-backup-project/backups/MyProject/2025/07/21/myproject_20250721_104745.zip
+[2025-07-21 10:47:47] Uploaded to Google Drive folder: EC2Backups
+[2025-07-21 10:47:47] Deleted 0 old daily backup(s)
+[2025-07-21 10:47:47] Deleted 0 old weekly backup(s)
+[2025-07-21 10:47:47] Deleted 0 old monthly backup(s)
+[2025-07-21 10:47:47] Webhook failed with status code 404
+[2025-07-21 10:47:47] Backup completed successfully
+[2025-07-21 10:57:40] Backup started
+[2025-07-21 10:57:40] Created zip: /home/ubuntu/auto-backup-project/backups/MyProject/2025/07/21/myproject_20250721_105740.zip
+[2025-07-21 10:57:42] Uploaded to Google Drive folder: EC2Backups
+[2025-07-21 10:57:42] Deleted 0 old daily backup(s)
+[2025-07-21 10:57:42] Deleted 0 old weekly backup(s)
+[2025-07-21 10:57:42] Deleted 0 old monthly backup(s)
+[2025-07-21 10:57:43] Notification sent to webhook
+[2025-07-21 10:57:43] Backup completed successfully
